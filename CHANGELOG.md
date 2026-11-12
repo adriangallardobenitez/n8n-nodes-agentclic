@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- First release published through npm trusted publishing (OIDC).
+- `npm test` runs the node against a mock of the Agentclic API.
+
 ## 0.1.1
 
 - Publish the package as public with npm provenance (0.1.0 was never published to npm).

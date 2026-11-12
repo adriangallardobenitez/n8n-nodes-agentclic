@@ -1,7 +1,7 @@
 // Prueba del nodo contra un servidor simulado con el contrato de la API pro v1.
 const http = require('http');
 const assert = require('assert');
-const { Agentclic } = require(process.argv[2] + '/dist/nodes/Agentclic/Agentclic.node.js');
+const { Agentclic } = require(require('path').resolve(process.argv[2] ?? '.', 'dist/nodes/Agentclic/Agentclic.node.js'));
 
 const CLIENT = '3f1c2a8e-5b7d-4e19-9a62-0c4d8b7e1f20';
 const contacts = [];

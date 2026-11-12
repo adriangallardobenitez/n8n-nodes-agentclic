@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-agentclic",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "n8n community node for Agentclic: manage the clients and CRM contacts of your Agentclic account",
 	"license": "MIT",
 	"homepage": "https://agentclic.com/developers",
@@ -25,7 +25,8 @@
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix",
 		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
+		"prepublishOnly": "n8n-node prerelease",
+		"test": "node test/api-mock.test.js ."
 	},
 	"files": [
 		"dist"
