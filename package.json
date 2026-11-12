@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-agentclic",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n community node for Agentclic: manage the clients and CRM contacts of your Agentclic account",
 	"license": "MIT",
 	"homepage": "https://agentclic.com/developers",
@@ -49,5 +49,9 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	}
 }

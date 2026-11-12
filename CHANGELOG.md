@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Publish the package as public with npm provenance (0.1.0 was never published to npm).
+
 ## 0.1.0
 
 - First version of the Agentclic node and the Agentclic API credential.
