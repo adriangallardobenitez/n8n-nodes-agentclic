@@ -11,7 +11,8 @@
 		"crm"
 	],
 	"author": {
-		"name": "Adrián Gallardo"
+		"name": "Agentclic",
+		"email": "soporte@agentclic.com"
 	},
 	"repository": {
 		"type": "git",
